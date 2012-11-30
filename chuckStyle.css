@@ -1,0 +1,102 @@
+body {
+	background-color: black;
+}
+h1 {
+	color: white;
+}
+
+#content {
+	color: white; 
+	text-align: justify;
+	display: none;
+}
+object {
+	margin-bottom: 10px;
+}
+/*  song info and the 'i' buttons */
+info {
+	font-size: 20;
+	color: rgb(208,208,255);
+}
+info.infoPop {
+	font-size: 16px;
+	-webkit-border-radius: 12px ;
+	-moz-border-radius: 12px ;
+	background: #979797;
+	margin-right: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 0px;
+	float: right;
+}			
+info.infoPop:hover {
+	color: black;
+}
+/* base nav properties.   */
+dl.nav {
+	font-size: 26px;
+	width: auto;
+	margin: 0 0 18px;
+	color: #999;
+					
+	/* no border*/
+}
+/* sub nav item properties*/
+dl.nav dd {
+	margin-left: 20px;
+	margin-right: 20px ;
+	float:left;			/* floating nav*/
+	display: inline;
+	padding: 10px;
+	/* rounded rectangle*/
+	-webkit-border-radius: 12px 12px 12px 12px;
+	-moz-border-radius: 12px;
+}
+/* sub nav item hover controls*/
+dl.nav dd:hover {
+	background: #eee;
+}
+/* sub nav active item controls*/
+dl.nav dd.active {
+	background: #2daebf;
+	color: #fff;	/* white text*/
+}
+
+/* sidenav box which holds info about each item */
+#sidenav {
+	float: left;
+	margin-left: 420px;
+	margin-top: 20px;
+	width: 400px;
+	height: 300px;
+	border: 2px solid #FFF;
+	position: fixed;
+}
+#sidenav_title {
+	font-size: 20px;
+	color: rgb(208,208,255);
+	text-align: center;
+	border: 1px solid #FFF;
+}
+#sidenav_info {
+	color: white;
+	font-size: 16px;
+	overflow: auto;
+	height: 268px;
+	text-align: left;
+	padding: 8px;
+}
+#main-content {
+	position: absolute;
+	left: 20px;
+	width: 410px;
+}
+#appendedText {
+	display: inline;
+	font-size: 20px;
+	color: rgb(208,208,255);
+}
+#footer {
+	float: bottom;
+	text-align: center;
+}
