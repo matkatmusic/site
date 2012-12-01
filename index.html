@@ -667,8 +667,47 @@
 	
 		<script src="chuckjs.js"></script>
 		<script>
-			setupEvents();
-			navigateTo( "nav_Bio" );
+var alreadyrunflag=0; //flag to indicate whether target function has already been run
+
+if (document.addEventListener)
+{
+	document.addEventListener("DOMContentLoaded", alreadyRun, false );
+}
+else if (document.all && !window.opera)
+{
+	document.write('<script type="text/javascript" id="contentloadtag" defer="defer" src="javascript:void(0)"><\/script>');
+	var contentloadtag = document.getElementById("contentloadtag");
+	contentloadtag.onreadystatechange = onReadyStateChangeFunc();
+}
+		
+window.onload = function()
+{
+	setTimeout( function() 
+				{
+					if( !alreadyrunflag )
+					{
+						setupEvents();
+						navigateTo( "nav_Bio" );
+					}
+				}, 0 );
+}
+	
+function alreadyRun(e)
+{
+	alreadyrunflag = 1;
+	setupEvents();
+	navigateTo( "nav_Bio" );
+}
+function onReadyStateChangeFunc(e)
+{
+	if( this.readyState == "complete" )
+	{
+		alreadyrunflag = 1;
+		setupEvents();
+		navigateTo( "nav_Bio" );
+	}
+}
+			
 		</script>	
 	</body>
 </html>
@@ -750,8 +789,5 @@
 					allowfullscreen="true">
 			</embed>
 		</object>
-		
-		https://www.youtube.com/watch?v=8jnI5AF2mWI
-http://www.youtube.com/v/8jnI5AF2mWI?version=3&amp;hl=en_US&amp;rel=0
-http://www.youtube.com/v/hxd2eBUFe84?version=3&amp;hl=en_US&amp;rel=0
+
 		-->

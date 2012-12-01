@@ -71,8 +71,8 @@ function setupEvents()
 					 gmjInfo,  pbInfo,  nocturneInfo,  untitledInfo,  starEyesInfo,  amazingGraceInfo, cheezeInfo, hollywoodTangoInfo, peggysTangoInfo, studioOrch2k5Info, like2LuvYouInfo, classicalSetInfo, vientosInfo, operationGPPInfo, waltVigsInfo, greatIsThyInfo, sevenStepsInfo, loveForSaleInfo, geeBabyInfo, soulfulSaxInfo, gospelMedleyInfo, jessicaReedyInfo, sentimentalMoodInfo, eqStringsInfo, mpcTenorInfo, mpcAltoInfo, micTenorInfo, micAltoInfo, cv4MicInfo, wiviEwiInfo, classicStringsInfo
 				];
 	var args = ["nav_Gospel", "nav_Jazz", "nav_Classical", "nav_Contemporary", "nav_Tech", "nav_Bio",
-				"null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", 
-				"null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null" ];
+				"null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", 
+				"null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null", "null"  ];
 	var i;
 	var a, b, c, d;
 	for( i = 0; i < targs.length; i++ )
