@@ -401,7 +401,7 @@ function showJazz(e)
 	videoList( showList );
 	//hidePlayers( hideList );
 	repositionPlayers( repList ); 	
-	var t = "Here are some jazz pieces i've written or arranged.  They're primarily for big bands.  Click the 'i' for more info about each song."
+	var t = "Here are some jazz pieces I've written or arranged.  They're primarily for big bands.  Click the 'i' for more info about each song."
 	showText('sidenav_info', t);
 	showText('sidenav_title', "Info - Jazz Music" );
 	appendText();
@@ -419,7 +419,7 @@ function showClassical(e)
 	videoList( showList );
 	//hidePlayers( hideList );	
 	repositionPlayers( repList );
-	var t = "Here are some classical pieces i've written or arranged.  Primarily for large groups.  Click the 'i' for more info about each song."
+	var t = "Here are some classical pieces I've written or arranged.  Primarily for large groups.  Click the 'i' for more info about each song."
 	showText('sidenav_info', t);
 	showText('sidenav_title', "Info - Classical Music" );
 	appendText();
