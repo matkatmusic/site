@@ -36,9 +36,9 @@ info.infoPop:hover {
 dl.nav {
 	font-size: 26px;
 	width: auto;
-	margin: 0 0 18px;
+	margin: 0 0 100px;
 	color: #999;
-					
+	
 	/* no border*/
 }
 /* sub nav item properties*/
