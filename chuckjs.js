@@ -497,7 +497,7 @@ function showBio(e)
 		t +="   He is a graduate of the Manhattan School of Music, holding both a Bachelors and Masters degree from the school. "
 		t +="   Originally from Seattle, Charles moved to NYC in 2003 to study with Grammy-winning composer Michael Abene."
 		t +="   He plays all saxophones, piano, flute, clarinet, guitar, and some trumpet."
-		t +="   Charles' has written professional for Jessica Reedy, Jonathan Nelson, Javen, New York Youth Symphony, Brass Band Of Battle Creek, and other professional ensembles."
+		t +="   Charles has written professionally for Jessica Reedy, Jonathan Nelson, Javen, New York Youth Symphony, Brass Band Of Battle Creek, and other professional ensembles."
 		t +="   He is also a recipient of awards and scholarships from ASCAP."
 	showText('sidenav_info', t);
 	showText('sidenav_title', "Info - About" );
