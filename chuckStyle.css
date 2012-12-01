@@ -15,7 +15,7 @@ object {
 }
 /*  song info and the 'i' buttons */
 info {
-	font-size: 20;
+	font-size: 20px;
 	color: rgb(208,208,255);
 }
 info.infoPop {
@@ -35,7 +35,7 @@ info.infoPop:hover {
 /* base nav properties.   */
 dl.nav {
 	font-size: 26px;
-	width: auto;
+	width: 100%;
 	margin: 0 0 100px;
 	color: #999;
 	
@@ -43,11 +43,11 @@ dl.nav {
 }
 /* sub nav item properties*/
 dl.nav dd {
-	margin-left: 20px;
-	margin-right: 20px ;
+	margin-left: 10px;
+	margin-right: 10px ;
 	float:left;			/* floating nav*/
 	display: inline;
-	padding: 10px;
+	padding: 5px;
 	/* rounded rectangle*/
 	-webkit-border-radius: 12px 12px 12px 12px;
 	-moz-border-radius: 12px;
