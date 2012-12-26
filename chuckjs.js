@@ -446,9 +446,9 @@ function showBio(e)
 {
 	//operation_gpp is excluded from this list
 	var vids = [ "untitled", "like_2_luv_you", "sentimental_mood",
-				"walt_vigs", "nocturne", "hollywood_tango", "peggys_tango", "studio_orch_2k5", "classical_set", "give_me_jesus",
-				"vientos", "poor_butterfly", "star_eyes", "cheeze", "seven_steps", "love_for_sale", "gee_baby", "classic_strings",
-				"great_is_thy", "soulful_sax", "gospel_medley", "jessica_reedy"
+			"walt_vigs", "nocturne", "hollywood_tango", "peggys_tango", "studio_orch_2k5", "classical_set", "give_me_jesus",
+			"vientos", "poor_butterfly", "star_eyes", "cheeze", "seven_steps", "love_for_sale", "gee_baby", "classic_strings",
+			"great_is_thy", "soulful_sax", "gospel_medley", "jessica_reedy"
 				
 				];
 	//find one of each category.
